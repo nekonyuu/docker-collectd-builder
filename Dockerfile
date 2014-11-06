@@ -1,6 +1,8 @@
 # Dockerfile for building collectd RPM
 FROM centos:centos6
+MAINTAINER Jonathan "nekonyuu" Raffre <nk@nyuu.eu>
 
+# Start !
 VOLUME /target
 
 # Preparing environment
